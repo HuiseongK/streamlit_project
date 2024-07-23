@@ -1,7 +1,6 @@
 "# Streamlit01" 
 one more line
 
-
 ## 내 github 사용자 정보를 현재 컴퓨터에 로그인 
 ## $ git config --global user.email "본인 이메일"
 ## $ git config --global user.name "본인의 github 닉네임"
