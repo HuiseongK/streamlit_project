@@ -78,7 +78,7 @@ def main():
 
     if st.button('뒤로가기'):
         st.session_state.page = 'stock'
-        st.experimental_rerun()
+        st.rerun()
 
 if __name__ == "__main__":
     main()

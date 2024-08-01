@@ -144,7 +144,7 @@ def main():
         st.session_state.page = 'stock'
 
     if st.session_state.page == 'gpt':
-        st.experimental_rerun()
+        st.rerun()
 
 if __name__ == "__main__":
     main()
