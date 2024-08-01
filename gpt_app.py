@@ -8,9 +8,6 @@ from dotenv import load_dotenv
 
 # MySQL 연결 정보
 load_dotenv()  # .env 파일을 읽어서 환경변수로 설정
-
-# MySQL 연결 정보
-load_dotenv()  # .env 파일을 읽어서 환경변수로 설정
 db_host = os.getenv("HOST")
 db_user = os.getenv("USER")
 db_password = os.getenv("PASSWD")
