@@ -84,7 +84,7 @@ def main():
             st.session_state.stock_name = stock_name
             st.session_state.start_date = date_range[0]
             st.session_state.end_date = date_range[1]
-            st.experimental_rerun()
+            st.rerun()
 
     @st.cache_data
     def get_stock_info():
