@@ -6,3 +6,6 @@ matplotlib
 plotly
 openpyxl
 html5lib
+pymysql
+openai
+python-dotenv

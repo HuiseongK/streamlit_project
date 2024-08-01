@@ -3,7 +3,6 @@ import pandas as pd
 import pymysql
 import openai
 import os
-import yaml
 
 from dotenv import load_dotenv
 

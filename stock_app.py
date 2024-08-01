@@ -5,7 +5,6 @@ import datetime
 import pymysql
 from io import BytesIO
 import os
-import yaml
 import plotly.graph_objs as go
 from dotenv import load_dotenv
 
